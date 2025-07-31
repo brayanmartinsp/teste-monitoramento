@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Monitoramento de Sinais Vitais</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        Monitoramento de Sinais Vitais
+        <div class="header-buttons">
+            <button class="header-button">Menu</button>
+            <button class="header-button">Configuração</button>
+            <button class="header-button">Sair</button>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>              
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>       
+            <!-- Cartão: Batimento Cardíaco -->
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>                     
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>       
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>                     
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>                      
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>       
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>  
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>                   
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>
+                    </div>
+                 <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <!-- Oxigenação -->
+                <div class="card">
+                    <div>
+                        
+                    </div>
+                    <div>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#007bff" font-weight="bold">O₂</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#007bff" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#007bff" text-anchor="middle" id="spo2-value">98%</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#ff5733" font-weight="bold">🌡️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#ff5733" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#ff5733" text-anchor="middle" id="temp-value">36.5°C</text>
+                        </svg>
+                        <svg width="150" height="80" viewBox="0 0 150 80" xmlns="http://www.w3.org/2000/svg">
+                            <text x="10" y="35" font-family="Arial" font-size="24" fill="#e63946" font-weight="bold">❤️</text>
+                            <rect x="40" y="10" width="90" height="40" rx="10" fill="#e63946" opacity="0.2"/>
+                            <text x="85" y="38" font-family="Arial" font-size="24" fill="#e63946" text-anchor="middle" id="bpm-value">75 BPM</text>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        
+        </div>
+    </main>
+
+    <footer>
+        &copy; 2025 Monitoramento de Sinais Vitais
+    </footer>
+     
+     <script>
+    function redirecionar(url) {
+      window.location.href = "page.html";
+    }
+  </script>
+
+</body>
+</html>
